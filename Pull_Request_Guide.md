@@ -49,6 +49,44 @@ Include the following sections in the description:
    Include images/videos  
 ---
 
+
+## Sample PR
+
+```bash
+# PR Title
+
+PR Description
+[description ...                ]
+
+   1. Summary
+    This PR fixes the login form validation issue by adding proper regex for email validation and handling edge cases.
+
+   2. Changes Made
+        Updated validation.js to fix email regex.
+        Added test cases for invalid email formats.
+        Refactored login.js to improve error messaging.
+
+   3. Issue/Task Reference
+    Closes #456
+
+   4. Testing
+        Open the login form and test various email formats (valid and invalid).
+        Run npm test to verify automated tests pass.
+        Check error messages for empty and invalid inputs.
+
+   5. Checklist
+
+Code is linted and formatted.
+Tests are updated (if applicable).
+
+Documentation is updated (if necessary).
+
+Images/Videos (Optional)
+
+creenshot of error messages when invalid email is entered (attached).
+
+```
+
 ## How to Commit and Push Changes
 
 Follow these steps for basic commit and push operations in Git:
