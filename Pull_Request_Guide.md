@@ -83,7 +83,7 @@ Documentation is updated (if necessary).
 
 Images/Videos (Optional)
 
-creenshot of error messages when invalid email is entered (attached).
+Screenshot of error messages when invalid email is entered (attached).
 
 ```
 
